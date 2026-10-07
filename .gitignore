@@ -1,0 +1,10 @@
+target/
+.idea/
+*.iml
+.vscode/
+.DS_Store
+# real certificates and secrets must never be committed
+*.p12
+*.pfx
+!invoisku-core/src/test/resources/certs/*.p12
+.env
